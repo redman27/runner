@@ -2,7 +2,7 @@ name: K8s test sh_runner
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   push_to_registry:
