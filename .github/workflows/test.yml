@@ -1,0 +1,12 @@
+name: K8s test sh_runner
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  push_to_registry:
+    name: test
+    runs-on: [self-hosted]
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
